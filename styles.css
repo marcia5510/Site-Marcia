@@ -1,0 +1,94 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Estilos do nav */
+nav {
+    background-color: #ff69b4; /* Cor de fundo rosa */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: #fff; /* Cor do texto branco */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Cor do texto branco */
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffe4e1; /* Cor do texto ao passar o mouse (um rosa mais claro) */
+}
+
+/* Estilos do banner */
+.banner {
+    background-color: #ffb6c1; /* Cor de fundo rosa claro */
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.banner .titulo {
+    font-size: 48px;
+    margin: 0;
+}
+
+.banner .sub_titulo {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.banner .botoes {
+    margin-top: 30px;
+}
+
+.banner button {
+    background-color: #ff69b4; /* Cor de fundo rosa */
+    color: #fff; /* Cor do texto branco */
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.banner button.overlay {
+    background-color: #fff; /* Cor de fundo branco */
+    color: #ff69b4; /* Cor do texto rosa */
+    border: 2px solid #ff69b4; /* Borda rosa */
+}
+
+.banner button:hover {
+    background-color: #fff; /* Cor de fundo branco ao passar o mouse */
+    color: #ff69b4; /* Cor do texto rosa */
+}
+
+.banner button.overlay:hover {
+    background-color: #ff69b4; /* Cor de fundo rosa ao passar o mouse */
+    color: #fff; /* Cor do texto branco */
+}
